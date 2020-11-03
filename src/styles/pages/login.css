@@ -1,0 +1,67 @@
+#app-login {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app-login .content-wrapper {
+  width: 460px;
+  height: 560px;
+  
+  background: #F2FAF8;
+  color: #853FCB;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#app-login .content-wrapper h1 {
+  margin-bottom: 18px;
+}
+
+form.login .input-block  {
+  margin-top: 19px;
+}
+
+form.login .input-block label {
+  display: flex;
+  margin-bottom: 8px;
+
+  font-size: 18px;
+}
+
+form.login .input-block input {
+  width: 100%;
+  height: 60px;
+  max-width: 380px;
+  
+  padding: 0 10px;
+
+  border: solid 2px #853FCB;
+  border-radius: 8px;
+}
+
+form.login .confirm-button {
+  width: 100%;
+  height: 60px;
+
+  margin-top: 60px;
+
+  background: #853FCB;
+  
+  cursor: pointer;
+
+  border: none;
+  border-radius: 8px;
+  color: #F2FAF8;
+  transition: background .5s;
+}
+
+form.login .confirm-button:hover {
+  background: #A650FD;
+}

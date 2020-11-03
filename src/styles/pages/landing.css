@@ -1,0 +1,121 @@
+#app-landing {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app-landing .left-wrapper {
+  width: 100%;
+  height: 100%;
+  max-height: 680px;
+
+  padding-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: flex-start;
+}
+
+#app-landing .left-wrapper img.logo {
+  flex-shrink: 0;
+  margin-bottom: 80px;
+}
+
+#app-landing .left-wrapper span {
+  width: 601px;
+
+  font-size: 52px;
+  font-weight: 800;
+}
+
+#app-landing .left-wrapper span strong {
+  color: #FB8EFD;
+}
+
+#app-landing .right-wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 480px;
+
+  background: #F2FAF8;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #853FCB;
+}
+
+#app-landing .right-wrapper h1 {
+  align-self: center;
+}
+
+form.create-user {
+  width: 320px;
+  overflow: hidden;
+}
+
+form.create-user .input-block  {
+  margin-top: 19px;
+}
+
+form.create-user .input-block label {
+  display: flex;
+  margin-bottom: 8px;
+
+  font-size: 18px;
+}
+
+form.create-user .input-block input {
+  width: 100%;
+  height: 60px;
+
+  padding: 0 10px;
+
+  border: solid 2px #853FCB;
+  border-radius: 8px;
+}
+
+form.create-user .confirm-button {
+  width: 100%;
+  height: 60px;
+
+  margin-top: 60px;
+
+  background: #853FCB;
+  
+  cursor: pointer;
+
+  border: none;
+  border-radius: 8px;
+  color: #F2FAF8;
+  transition: background .5s;
+}
+
+form.create-user .confirm-button:hover {
+  background: #A650FD;
+}
+
+#app-landing .right-wrapper span.sendToLogin {
+  margin-top: 16px;
+  
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+#app-landing .right-wrapper span.sendToLogin a {
+  text-decoration: none;
+
+  color: #A650FD;
+  border-bottom: solid 1px #A650FD;
+}
+
+
+
+
+
