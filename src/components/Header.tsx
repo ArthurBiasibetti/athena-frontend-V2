@@ -1,12 +1,12 @@
 import React from 'react';
 
-import '../styles/components/header.css'
+import '../styles/components/header.css';
 
-import Logo from '../images/Logo.svg'
-import mano from '../images/mano.jpg'
+import Logo from '../images/Logo.svg';
+import mano from '../images/mano.jpg';
 
-import { GoBell } from 'react-icons/go'
-import { BsCaretDownFill } from 'react-icons/bs'
+import { GoBell } from 'react-icons/go';
+import { BsCaretDownFill } from 'react-icons/bs';
 
 export default function Header () {
   return(

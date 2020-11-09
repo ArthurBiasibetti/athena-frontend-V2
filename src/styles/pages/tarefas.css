@@ -19,48 +19,6 @@
   flex-wrap: wrap;
 }
 
-#app-tarefas .content-wrapper aside {
-  width: 200px;
-  height: calc(100% - 128px);
-
-  display: flex;
-  flex-direction: column;
-
-  background: #853FCB;
-  
-  padding: 0 8px 0 32px;
-  
-}
-
-#app-tarefas .content-wrapper aside .simplebar-scrollbar::before {
-  background-color: #FB8EFD;
-  opacity: .6;
-}
-
-#app-tarefas .content-wrapper aside ul.turma-list {
-  width: 100%;
-  margin: 8px 0;
-
-  font-size: 1em;
-  font-weight: 400;
-
-}
-#app-tarefas .content-wrapper aside ul li {
-  display: flex;
-  flex-direction: column;
-}
-
-#app-tarefas .content-wrapper aside ul li .tarefa-list.list-hidden {
-  display: none;
-  overflow: hidden;
-}
-
-#app-tarefas .content-wrapper aside ul li .tarefa-list {
-  display: flex;
-
-  margin-left: 27px;
-}
-
 #app-tarefas .content-wrapper main {
   display: flex;
   flex-direction: column;

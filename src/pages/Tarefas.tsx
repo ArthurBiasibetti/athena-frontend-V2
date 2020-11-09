@@ -4,52 +4,14 @@ import Header from '../components/Header'
 import '../styles/pages/tarefas.css';
 
 import SimpleBar from 'simplebar-react';
+import Aside from '../components/Aside';
 
 function Tarefas() {
   return (
     <div id="app-tarefas">
       <div className="content-wrapper">
         <Header />
-        <aside>
-          <SimpleBar style={{maxHeight: '100%'}}>
-            <ul className='turma-list'>
-              <li>
-                Turma 1 
-                <div className='tarefa-list'>
-                <ul>
-                  <li>Tarefa 1</li>
-                  <li>Tarefa 2</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 4</li>        
-                </ul>
-                </div>
-              </li>
-              <li>Turma 2
-              <div className='tarefa-list'>
-                <ul>
-                  <li>Tarefa 1</li>
-                  <li>Tarefa 2</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 3</li>
-                  <li>Tarefa 4</li>        
-                </ul>
-                </div>
-              </li>
-              <li>Turma 3</li>
-              <li>Turma 4</li>
-              <li>Turma 5</li>
-            </ul>
-          </SimpleBar>
-        </aside>
+        <Aside />
         <main>
           <SimpleBar style={{maxHeight: '100%'}}>
             <div className="tarefa-infos">

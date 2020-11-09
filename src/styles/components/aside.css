@@ -1,0 +1,45 @@
+aside {
+  width: 200px;
+  height: calc(100% - 128px);
+
+  display: flex;
+  flex-direction: column;
+
+  background: #853FCB;
+  
+  padding: 0 8px 0 32px;
+  
+}
+
+aside .simplebar-scrollbar::before {
+  background-color: #FB8EFD;
+  opacity: .6;
+}
+
+aside ul.list {
+  width: 100%;
+  margin: 8px 0;
+
+  font-size: 1em;
+  font-weight: 400;
+
+}
+aside ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+aside ul li span {
+  cursor: pointer;
+}
+
+aside ul li .sub-list.list-hidden {
+  display: none;
+  overflow: hidden;
+}
+
+aside ul li .sub-list {
+  display: flex;
+
+  margin-left: 27px;
+}
