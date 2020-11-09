@@ -50,7 +50,7 @@
 #app-tarefas .content-wrapper header.cabecalho .left-content ul li{
   display: inline-block;
   
-  font-size: 36px;
+  font-size: 2em;
 }
 
 #app-tarefas .content-wrapper header.cabecalho .left-content ul li.active {
@@ -96,7 +96,6 @@
   
   padding: 0 8px 0 32px;
   
-  font-size: 24px;
 }
 
 #app-tarefas .content-wrapper aside .simplebar-scrollbar::before {
@@ -107,6 +106,10 @@
 #app-tarefas .content-wrapper aside ul.turma-list {
   width: 100%;
   margin: 8px 0;
+
+  font-size: 1em;
+  font-weight: 400;
+
 }
 #app-tarefas .content-wrapper aside ul li {
   display: flex;
@@ -120,8 +123,6 @@
 
 #app-tarefas .content-wrapper aside ul li .tarefa-list {
   display: flex;
-
-  font-size: 16px;
 
   margin-left: 27px;
 }
@@ -163,6 +164,12 @@
   padding: 0 40px;
 
   border-bottom: #7C3CBC solid 2px;
+  
+}
+
+#app-tarefas .content-wrapper main .tarefa-infos header h4 {
+  font-size: 1em;
+  font-weight: 600;
 }
 
 #app-tarefas .content-wrapper main .tarefa-infos .left-side {
@@ -173,13 +180,14 @@
   justify-content: center;
   flex: 1;
 
-  padding-left: 20px;
+  padding-left: 30px;
 
   border-right: #7C3CBC solid 2px;
 }
 
 #app-tarefas .content-wrapper main .tarefa-infos .left-side h4 {
-  padding: 9px
+  padding: 9px;
+  font-weight: 600;
 }
 
 #app-tarefas .content-wrapper main .tarefa-infos .right-side {
@@ -197,7 +205,8 @@
 #app-tarefas .content-wrapper main .tarefa-infos .right-side h4 {
   padding: 0 20px;
   text-align: justify;
-  font-size: 16px;
+  font-size: .9em;
+  font-weight: 500;
 
 }
 
